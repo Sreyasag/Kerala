@@ -1,0 +1,71 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    padding-left: 5%;
+    padding-top: 1rem;
+}
+.nav-item{
+    padding-left: 1rem;
+    
+    padding-right: 1rem;
+}
+
+
+#home {
+
+    background-color: rgb(194, 221, 245);
+    padding-bottom: 15%;
+}
+
+   
+
+.bird{
+    width: 30PX;
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    transform: rotate(30deg); 
+    transition: top 2s;
+    transition-timing-function: ease-out;   
+  
+}
+
+.bird:hover{      
+    top: 30%;        
+
+  }
+    
+
+form{
+    margin: 5% 50% 1% 6%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5%;
+    background-color: aliceblue;
+    
+    
+}
+
+form:hover{
+    box-shadow: 1px 1px 60px rgb(139, 205, 221);
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.signin{
+    margin-top: 1.5rem;
+    
+}
+
+
+  
+
+
+    
+
+

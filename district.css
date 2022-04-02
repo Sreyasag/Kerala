@@ -1,0 +1,72 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+.navbar-brand{
+    padding-left: 5%;
+    padding-top: 1rem;
+}
+.nav-item{
+    padding-left: 1rem;
+    
+    padding-right: 1rem;
+}
+
+
+#home {
+
+    background-color: rgb(194, 221, 245);
+    padding-bottom: 1%;
+}
+
+   
+
+
+.titleword{
+    color: white;
+    font-size: 3rem;
+    padding: 5rem;
+    text-align: center;
+    font-weight: bold;
+    
+    
+    
+}
+
+  
+
+#attractions{
+    background-color: rgb(253, 253, 253);
+    padding-top: 4rem;
+}
+.attraction-heading{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+.list-group{
+    padding-bottom: 2rem;
+    
+}
+
+
+.footer{
+    text-align: center;
+    background-color: rgb(244, 247, 248);
+    padding: 2rem 1rem;
+    word-spacing: 25px;
+    font-size: 1.3rem;
+    margin-top: 4rem;
+   
+}
+img{
+    border-radius: 6px;
+}
+
+    
+
+
