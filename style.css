@@ -77,13 +77,11 @@
     
 }
 
-#districts{
-    background-color: rgb(255, 255, 255);
-}
+
 .district-heading{
     text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2.2rem;
     padding-left: 1rem;
 }
 .card{
@@ -113,8 +111,8 @@
     
 }
 .app-txt{
-    font-size: 2rem;
-    padding-top: 4rem;
+    font-size: 1.8rem;
+    padding-top: 5rem;
     
 }
 .app-img{
