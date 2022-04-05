@@ -105,8 +105,9 @@
 }
 
 .top-button{
-    text-align: center;
-    padding-bottom: 2rem;
+    text-align: right;
+    padding-bottom: 1.5rem;
+    padding-right: 1rem;
     
     
 }
