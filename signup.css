@@ -5,8 +5,11 @@
     padding: 0;
 }
 .navbar-brand{
-    padding-left: 5%;
+    padding-left: 2%;
     padding-top: 1rem;
+}
+.keralaimg{
+    border-radius: 4px;
 }
 .nav-item{
     padding-left: 1rem;
