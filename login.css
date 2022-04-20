@@ -68,6 +68,14 @@ form:hover{
     
     
 }
+.log{
+    margin: auto;
+    padding:200px 0 200px 0;
+    
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
 
 
   

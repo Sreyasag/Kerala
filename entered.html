@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kerala</title>
     <!-- css -->
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="login.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -34,12 +34,13 @@
                   <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="index.html#districts">Explore</a>
                   </li>
-                 
+                  
+                  
                   <li class="nav-item">
-                    <a class="nav-link " href="login.html">Sign in</a>
+                    <a class="nav-link active" href="#">Sign in</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active " href="#">Sign up</a>
+                    <a class="nav-link " href="signup.html">Sign up</a>
                   </li>
                 </ul>
                
@@ -52,57 +53,15 @@
             
             <img class="bird" src="images/bird.png" alt="">
             
-            <form action="entered.html" onsubmit="validate()">
-              <h4>Sign Up </h4>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label >Name</label>
-                    <input type="text" class="form-control"  placeholder="First name">
-                    
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label ></label>
-                    <input type="text" class="form-control"  placeholder="Last name">
-                    
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="text" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
-                
-              </div>
-              <div class="form-group">  
-                <label >Phone Number</label>
-                <input type="text" id = "phone" class="form-control"  placeholder="Enter phone number">
-                
-              </div>
-              
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="Password1" placeholder="Enter password">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Confirm password</label>
-                <input type="password" class="form-control" id="Password2" placeholder="Re-enter password">
-              </div>
-              <div class="signin">
-                <button type="submit" class="btn btn-primary ">Sign Up</button>
-              </div>
-              
-              
-            </form>
+            <h2 class="log">Logged in</h2> 
         </div>
 
 
     </section>
     
     
-    
-    <script src="signup.js"></script> 
+  <script src="login.js"></script>  
+
 
 </body>
 </html>
