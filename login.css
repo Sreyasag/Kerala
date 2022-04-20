@@ -68,6 +68,19 @@ form:hover{
     
     
 }
+#err{
+    visibility: hidden;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border: 1px solid rgba(156, 128, 128, 0.734);
+    border-radius: 7px;
+    padding: 1rem;
+    background-color:rgba(249, 0, 0, 0.07);
+    box-shadow: 1px 1px 4px rgb(104, 111, 111);
+
+}
+
 .log{
     margin: auto;
     padding:200px 0 200px 0;
@@ -76,6 +89,7 @@ form:hover{
     font-weight: bold;
     text-align: center;
 }
+
 
 
   
