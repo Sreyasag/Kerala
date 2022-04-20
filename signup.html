@@ -52,7 +52,7 @@
             
             <img class="bird" src="images/bird.png" alt="">
             
-            <form>
+            <form action="" onsubmit="return validate()">
               <h4>Sign Up </h4>
               <div class="row">
                 <div class="col-md-6">
@@ -70,24 +70,24 @@
                   </div>
                 </div>
               </div>
-              
-              <div class="form-group">
-                <label >Address</label>
-                <input type="text" class="form-control"  placeholder="Enter address">
-                
-              </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="text" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
                 
               </div>
+              <div class="form-group">  
+                <label >Phone Number</label>
+                <input type="text" id = "phone" class="form-control"  placeholder="Enter phone number">
+                
+              </div>
+              
               <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="password" class="form-control" id="Password1" placeholder="Enter password">
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Confirm password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Re-enter password">
+                <input type="password" class="form-control" id="Password2" placeholder="Re-enter password">
               </div>
               <div class="signin">
                 <button type="submit" class="btn btn-primary ">Sign Up</button>
@@ -102,7 +102,7 @@
     
     
     
-
+    <script src="signup.js"></script> 
 
 </body>
 </html>
