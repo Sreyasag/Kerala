@@ -19,22 +19,27 @@ function validate(){
     }else if (!passRegexp1.test(pass.value)){
         pass.style.border = "1.5px solid red";
         email.style.border = "0px solid ";
-        alert("include a capital case letter");
+        alert("Password must include a capital case letter");
         return false;
     }else if (!passRegexp2.test(pass.value)){
         pass.style.border = "1.5px solid red";
         email.style.border = "0px solid ";
-        alert("include a small case letter");
+        alert("Password must include a small case letter");
         return false;
     }else if (!passRegexp3.test(pass.value)){
         pass.style.border = "1.5px solid red";
         email.style.border = "0px solid ";
-        alert("include a number");
+        alert("Password must include a number");
         return false;
     }
     else{
         pass.style.border = "0px solid ";
-        alert("valid");
+        
         return true;
     }
 }
+
+
+
+
+

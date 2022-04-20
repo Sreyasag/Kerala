@@ -17,7 +17,7 @@ function validate(){
     } else if (!phoneRegexp.test(phone.value)){
         phone.style.border = "1.5px solid red";
         email.style.border = "0px solid ";
-        alert("Invalid number");
+        alert("Invalid phone number");
         return false;
     }else if (pass.value.length < 8){
         pass.style.border = "1.5px solid red";
@@ -29,19 +29,19 @@ function validate(){
         pass.style.border = "1.5px solid red";
         phone.style.border = "0px solid ";
         email.style.border = "0px solid ";
-        alert("include a capital case letter");
+        alert("Password must include a capital case letter");
         return false;
     }else if (!passRegexp2.test(pass.value)){
         pass.style.border = "1.5px solid red";
         phone.style.border = "0px solid ";
         email.style.border = "0px solid ";
-        alert("include a small case letter");
+        alert("Password must include a small case letter");
         return false;
     }else if (!passRegexp3.test(pass.value)){
         pass.style.border = "1.5px solid red";
         phone.style.border = "0px solid ";
         email.style.border = "0px solid ";
-        alert("include a number");
+        alert("Password must include a number");
         return false;
     }else if ((pass.value)!=(pass2.value)){
         pass2.style.border = "1.5px solid red";
@@ -52,7 +52,7 @@ function validate(){
         return false;
     }else{
         pass2.style.border = "0px solid ";
-        alert("valid");
+        
         return true;
     }
 }
