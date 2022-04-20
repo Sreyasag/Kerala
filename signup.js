@@ -34,11 +34,11 @@ function validate(){
         pass.style.border = "1.5px solid red";
         text += "<br>Password must include small case letter";
         entry = false;
-    }else if (!passRegexp3.test(pass.value)){
+    } if (!passRegexp3.test(pass.value)){
         pass.style.border = "1.5px solid red";
         text += "<br>Password must include number";
         entry = false;
-    }else if ((pass.value)!=(pass2.value)){
+    } if ((pass.value)!=(pass2.value)){
         pass2.style.border = "1.5px solid red";
         text += "<br>Re-entered password does not match";
         entry = false;
