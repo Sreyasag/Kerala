@@ -48,7 +48,7 @@ form{
     border: 1px solid rgb(227, 225, 225);
     border-radius: 10px;
     padding: 5%;
-    background-color:rgb(181, 206, 229);
+    background-color:rgba(181, 206, 229, 0.642);
     box-shadow: 1px 1px 4px rgb(141, 148, 148);
     
     
