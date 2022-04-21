@@ -91,21 +91,21 @@ h4{
 }
 
 #l{
-    background-color: rgba(255, 55, 0, 0.767);
+    background-color: rgba(255, 55, 0, 0.475);
     padding:0 16.666%;
     visibility:hidden;
     
     
 }
 #m{
-    background-color: rgba(255, 191, 0, 0.858);
+    background-color: rgba(255, 191, 0, 0.511);
     padding:0 16.666%;
     visibility: hidden;
 
 }
 
 #g{
-    background-color: rgba(21, 255, 0, 0.705);
+    background-color: rgba(21, 255, 0, 0.496);
     padding:0 16.666%;
     visibility: hidden;
 
