@@ -74,15 +74,23 @@ function showStrength(){
     let z= passRegexp3.test(pass.value);
     let strength= Number(w)+Number(x)+Number(y)+Number(z);
         
-        
-        if (strength<1){
+       
+        if (strength<=1){
             pass.style.border = "2px solid rgb(248, 0, 0)";
-        } else if (strength<2){
+            document.getElementById("l").style.visibility = "visible";
+            document.getElementById("ps").innerHTML="Password strength: low";
+        } else if (strength<=2){
             pass.style.border = "2px solid rgb(255, 85, 0)";
-        }else if (strength<3){
+            document.getElementById("m").style.visibility = "visible";
+            document.getElementById("ps").innerHTML="Password strength: medium";
+        }else if (strength<=3){
             pass.style.border = "2px solid rgb(255, 187, 0)";
+            document.getElementById("m").style.visibility = "visible";
+            document.getElementById("ps").innerHTML="Password strength: medium";
         }else if (strength>=4){
             pass.style.border = "2px solid rgb(15, 201, 2)";
+            document.getElementById("g").style.visibility = "visible";
+            document.getElementById("ps").innerHTML="Password strength: strong";
         }
 }
 

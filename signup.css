@@ -76,7 +76,42 @@ h4{
     box-shadow: 1px 1px 4px rgb(104, 111, 111);
 
 }
-  
+
+.strength{
+    background-color: rgb(211, 221, 231);
+    margin: 0 0 5px 0;
+    
+    border-radius: 4px;
+        
+    
+}
+#ps{
+
+    margin: 0;
+}
+
+#l{
+    background-color: rgba(255, 55, 0, 0.767);
+    padding:0 16.666%;
+    visibility:hidden;
+    
+    
+}
+#m{
+    background-color: rgba(255, 191, 0, 0.858);
+    padding:0 16.666%;
+    visibility: hidden;
+
+}
+
+#g{
+    background-color: rgba(21, 255, 0, 0.705);
+    padding:0 16.666%;
+    visibility: hidden;
+
+}
+
+
 
 
     
