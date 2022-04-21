@@ -6,7 +6,7 @@ let phone = document.getElementById("phone");
 let pass = document.getElementById("Password1");
 let pass2 = document.getElementById("Password2");
 
-let EmailRegexp = /^([\w\.\-]+)@(\w+).([a-z]{2,3})(.[a-z]{2,3})?$/;
+let EmailRegexp = /^([\w\.\-]+)@([\w]+)\.([a-z]{2,3})(.[a-z]{2,3})?$/;
 let phoneRegexp = /^\d{3}[\-\.\s]?\d{3}[\-\.\s]?\d{4}$/;
 let passRegexp1 = /[A-Z]+/;
 let passRegexp2 = /[a-z]+/;

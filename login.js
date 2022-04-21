@@ -1,7 +1,7 @@
 
 function validate(){
     let email = document.getElementById("email1");
-    let EmailRegexp = /^([\w\.\-]+)@(\w+).([a-z]{2,3})(.[a-z]{2,3})?$/;
+    let EmailRegexp = /^([\w\.\-]+)@([\w]+)\.([a-z]{2,3})(.[a-z]{2,3})?$/;
     let pass = document.getElementById("Password1");
     let passRegexp1 = /[A-Z]+/;
     let passRegexp2 = /[a-z]+/;
