@@ -75,24 +75,22 @@ function showStrength(){
     let strength= Number(w)+Number(x)+Number(y)+Number(z);
         
        
-        if (strength<=1){
+        if (strength<=2){
             pass.style.border = "2px solid rgb(248, 0, 0)";
+            pass.style.color = "rgb(248, 0, 0)";
             document.getElementById("l").style.visibility = "visible";
             document.getElementById("m").style.visibility = "hidden";
-            document.getElementById("g").style.visibility = "hidden";
+            document.getElementById("g").style.visibility = "hidden";       
             document.getElementById("ps").innerHTML="Password strength: low";
-        } else if (strength<=2){
-            pass.style.border = "2px solid rgb(255, 85, 0)";
-            document.getElementById("m").style.visibility = "visible";
-            document.getElementById("g").style.visibility = "hidden";
-            document.getElementById("ps").innerHTML="Password strength: medium";
-        }else if (strength<=3){
-            pass.style.border = "2px solid rgb(255, 187, 0)";
+        } else if (strength<=3){
+            pass.style.border = "2px solid rgb(255, 196, 0)";
+            pass.style.color = "rgb(255, 196, 0)";
             document.getElementById("m").style.visibility = "visible";
             document.getElementById("g").style.visibility = "hidden";
             document.getElementById("ps").innerHTML="Password strength: medium";
         }else if (strength>=4){
             pass.style.border = "2px solid rgb(15, 201, 2)";
+            pass.style.color = "rgb(15, 201, 2)";
             document.getElementById("g").style.visibility = "visible";
             document.getElementById("ps").innerHTML="Password strength: strong";
         }
