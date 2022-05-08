@@ -84,8 +84,11 @@
     padding-bottom: 2.2rem;
     padding-left: 1rem;
 }
+.card1{
+    margin-bottom: 1.8rem;
+}
 .card{
-    margin-bottom: 1.5rem;
+    
     box-shadow: 1px 1px 10px rgb(179, 179, 179);
 }
 .card:hover{
